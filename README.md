@@ -1,5 +1,4 @@
-
-## Bộ công cụ tạo ra các file luyện viết chữ Tiếng Việt theo chuẩn của Bộ Giáo dục
+# Bộ công cụ tạo ra các file luyện viết chữ Tiếng Việt theo chuẩn của Bộ Giáo dục
 
 
 Link tải
