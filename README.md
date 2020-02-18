@@ -9,6 +9,8 @@ https://github.com/langmaninternet/LuyenChuTieuHoc/archive/1.0.zip
 Lời dẫn
 ------------
 Việc tạo ra file luyện chữ Tiếng Việt cho học sinh tiểu học theo chuẩn của Bộ Giáo dục khá phức tạp. Các âm nối "ôi" "ơi" "ơu" ... phải chỉnh lại tỉ mỉ từng chỗ một, rất cầu kì và chi tiết. Công cụ này sẽ giúp các thầy cô rút ngắn thời gian trong việc tạo ra các file luyện viết chữ. Chỉ việc viết chữ 1 cách bình thường và công cụ sẽ output ra chữ theo chuẩn để luyện viết
+
+
 ![](LuyenChuTieuHoc/VanDe.png)
 
 
