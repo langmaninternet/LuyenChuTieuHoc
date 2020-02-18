@@ -25,10 +25,13 @@ Bật công cụ LuyenChuTieuHoc và copy hoặc gõ text vào khung bên trên 
 ![](LuyenChuTieuHoc/HuongDanSuDung.png)
 
 
-Bước 3 : Hướng dẫn copy vào file word
+Bước 3 : Hướng dẫn copy vào file word mẫu "File luyện chữ mẫu.docx"
 ------------
+Sau khi có text chuẩn, các cô mở  "File luyện chữ mẫu.docx" cho text vào là thành công
+![](LuyenChuTieuHoc/HuongDanSuDung.png)
+
+
 Nguyên tắc của file word luyện viết là ở trong file word có 2 phần:
 + Phần nền : là các ô vuông được kẻ bằng 1 ký tự trong bộ font, cái này nằm trong 1 Shape, và đã được Send to back. Mếu cần thì mình có thể căn chỉnh tọa độ theo ý muốn
-
-+ Phần chữ : Các cô copy chữ chuẩn từ tool vào là 
++ Phần chữ : Các cô copy chữ chuẩn từ tool vào là được
 
