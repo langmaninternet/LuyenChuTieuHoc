@@ -185,9 +185,16 @@ void CHoTroFont4HangLuyenVietChuDlg::Convert()
 {
 	CString inputText;
 	GetDlgItemTextW(IDC_INPUT, inputText);
+
+	inputText.Replace(L",", L"| ");
+	inputText.Replace(L"|", L",");
+	inputText.Replace(L",  ", L", ");
+	inputText.Replace(L" ,", L",");
+
 	inputText.Replace(L"oon", L"ά");
 	inputText.Replace(L"ooc", L"β");
 	inputText.Replace(L"oọc", L"ǭ");
+	inputText.Replace(L" r", L" ς");
 	inputText.Replace(L"oa", L"Ξ");
 	inputText.Replace(L"oà", L"♦");
 	inputText.Replace(L"oạ", L"Ĳ");
