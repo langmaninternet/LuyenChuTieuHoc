@@ -37,6 +37,19 @@ Nguyên tắc của file word luyện viết là ở trong file word có 2 phầ
 + Phần nền : là các ô vuông được kẻ bằng 1 ký tự trong bộ font, cái này nằm trong 1 Shape, và đã được Send to back. Nếu cần thì mình có thể căn chỉnh tọa độ theo ý muốn
 + Phần chữ : Các cô copy chữ chuẩn từ tool vào là được
 
+
+
+Chú ý
+------------
+Nếu bạn dùng windows 10 thì sẽ bật được luôn
+Nếu bạn dùng windows 7 hoặc trước đó thì cần cài thêm gói này ạ https://aka.ms/vs/15/release/vc_redist.x86.exe
+Tham khảo : https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads
+
+
+
+
+
 Góp ý 
 ------------
 Mọi góp ý xin gửi về : langmaninternet@gmail.com hoặc phản ánh trực tiếp qua facebook : https://www.facebook.com/langmaninternet
+
