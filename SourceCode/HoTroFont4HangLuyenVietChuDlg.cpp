@@ -185,7 +185,7 @@ void CHoTroFont4HangLuyenVietChuDlg::Convert()
 {
 	CString inputText;
 	GetDlgItemTextW(IDC_INPUT, inputText);
-
+	inputText = L" " + inputText + L" ";
 	inputText.Replace(L",", L"| ");
 	inputText.Replace(L"|", L",");
 	inputText.Replace(L",  ", L", ");
@@ -297,18 +297,39 @@ void CHoTroFont4HangLuyenVietChuDlg::Convert()
 	inputText.Replace(L"ơu", L"Ϋ");
 	inputText.Replace(L"ợu", L"ŵ");
 	inputText.Replace(L"ớu", L"Ŵ");
-	inputText.Replace(L"ie", L"Η;");
-	inputText.Replace(L"iè", L"Η˝");
-	inputText.Replace(L"iẹ", L"Η");
-	inputText.Replace(L"iẻ", L"Η˞");
-	inputText.Replace(L"ié", L"Η˛");
-	inputText.Replace(L"iẽ", L"Ηˇ");
-	inputText.Replace(L"iê", L"Η");
-	inputText.Replace(L"iề", L"Ηϛ");
-	inputText.Replace(L"iệ", L"ΗŃ");
-	inputText.Replace(L"iể", L"ΗϜ");
-	inputText.Replace(L"iế", L"Ηı");
-	inputText.Replace(L"iễ", L"Η˙");
+
+
+
+
+
+
+
+
+	// đuôi cao
+	//		inputText.Replace(L"ie", L"Η΄");
+	//		inputText.Replace(L"iè", L"Η˝");
+	//		inputText.Replace(L"iẹ", L"Η−");
+	//		inputText.Replace(L"iẻ", L"Η˞");
+	//		inputText.Replace(L"ié", L"Η˛");
+	//		inputText.Replace(L"iẽ", L"Ηˇ");
+	//		inputText.Replace(L"iê", L"Ηł");
+	//		inputText.Replace(L"iề", L"Ηϛ");
+	//		inputText.Replace(L"iệ", L"Ηİ");
+	//		inputText.Replace(L"iể", L"ΗϜ");
+	//		inputText.Replace(L"iế", L"ΗĞ");
+	//		inputText.Replace(L"iễ", L"Ηğ");
+
+	//đuôi thấp
+
+
+
+
+
+
+
+
+
+
 
 	inputText.Replace(L"ue", L"Μ;");
 	inputText.Replace(L"uè", L"Μ˝");
@@ -441,12 +462,30 @@ void CHoTroFont4HangLuyenVietChuDlg::Convert()
 	inputText.Replace(L"hế", L"Ǘı");
 	inputText.Replace(L"hễ", L"Ǘ˙");
 
+
+
+
+	//em
+	inputText.Replace(L";m", L"΄m");
+	inputText.Replace(L";n", L"΄n");
+	//èm
+	inputText.Replace(L"∆m", L"˝m");
+	inputText.Replace(L"∆n", L"˝n");
+	//ẻm
+	inputText.Replace(L"◊m", L"˞m");
+	inputText.Replace(L"◊n", L"˞n");
+
+
+
 	inputText.Replace(L"gh", L"θ");
 	inputText.Replace(L"kh", L"δ");
 	inputText.Replace(L"nh", L"ζ");
 	inputText.Replace(L"ch", L"ε");
 	inputText.Replace(L"th", L"κ");
 	inputText.Replace(L"ph", L"ι");
+	inputText.Replace(L" m", L" Ε");
+	inputText.Replace(L" n", L" Ζ");
+
 
 	SetDlgItemTextW(IDC_OUTPUT, inputText);
 }
