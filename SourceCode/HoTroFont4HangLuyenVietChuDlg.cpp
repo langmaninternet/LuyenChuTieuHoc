@@ -515,6 +515,19 @@ void CHoTroFont4HangLuyenVietChuDlg::Convert()
 	inputText.Replace(L"˘p", L"Ϝp");
 	inputText.Replace(L"ıp", L"Ğp");
 	inputText.Replace(L"˙p", L"ğp");
+	inputText.Replace(L";t", L"΄Ι");
+	inputText.Replace(L"∆t", L"˝Ι");
+	inputText.Replace(L"t", L"−Ι");
+	inputText.Replace(L"◊t", L"˞Ι");
+	inputText.Replace(L"≈t", L"˛Ι");
+	inputText.Replace(L"⁄t", L"ˇΙ");
+	inputText.Replace(L"t", L"łΙ");
+	inputText.Replace(L"ˉt", L"ϛΙ");
+	inputText.Replace(L"Ńt", L"İΙ");
+	inputText.Replace(L"˘t", L"ϜΙ");
+	inputText.Replace(L"ıt", L"ĞΙ");
+	inputText.Replace(L"˙t", L"ğΙ");
+
 
 
 
