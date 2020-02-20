@@ -297,22 +297,20 @@ void CHoTroFont4HangLuyenVietChuDlg::Convert()
 	inputText.Replace(L"ơu", L"Ϋ");
 	inputText.Replace(L"ợu", L"ŵ");
 	inputText.Replace(L"ớu", L"Ŵ");
-	
-
 	inputText.Replace(L"ie", L"Η;");
 	inputText.Replace(L"iè", L"iè");
 	inputText.Replace(L"iẹ", L"Η");
 	inputText.Replace(L"iẻ", L"Η˞");
 	inputText.Replace(L"ié", L"Η˛");
 	inputText.Replace(L"iẽ", L"Ηˇ");
-
-
 	inputText.Replace(L"iê", L"Η");
 	inputText.Replace(L"iề", L"Ηϛ");
 	inputText.Replace(L"iệ", L"ΗŃ");
 	inputText.Replace(L"iể", L"ΗϜ");
 	inputText.Replace(L"iế", L"Ηı");
 	inputText.Replace(L"iễ", L"Η˙");
+
+
 
 
 	SetDlgItemTextW(IDC_OUTPUT, inputText);
