@@ -298,7 +298,7 @@ void CHoTroFont4HangLuyenVietChuDlg::Convert()
 	inputText.Replace(L"ợu", L"ŵ");
 	inputText.Replace(L"ớu", L"Ŵ");
 	inputText.Replace(L"ie", L"Η;");
-	inputText.Replace(L"iè", L"iè");
+	inputText.Replace(L"iè", L"Η˝");
 	inputText.Replace(L"iẹ", L"Η");
 	inputText.Replace(L"iẻ", L"Η˞");
 	inputText.Replace(L"ié", L"Η˛");
