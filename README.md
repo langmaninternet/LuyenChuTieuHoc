@@ -40,7 +40,7 @@ Nguyên tắc của file word luyện viết là ở trong file word có 2 phầ
 Chú ý
 ------------
 Đối với Windows 8, 7 trở về trước, ô ở dưới có thể hiện các kí tự lạ, ko lên được font chữ 4 ô ly. Tuy nhiên khi ta copy các dòng đó vào trong file word thì vẫn lên bình thường ạ
-
+![](LuyenChuTieuHoc/VanXaiBinhThuong.png)
 
 Góp ý 
 ------------
