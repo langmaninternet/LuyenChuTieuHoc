@@ -602,9 +602,11 @@ void CHoTroFont4HangLuyenVietChuDlg::Convert()
 	inputText.Replace(L"vΗ", L"νμ");
 
 	inputText.Replace(L" t", L" Ǉ");
-	inputText.Replace(L" m", L" Ε");
-	inputText.Replace(L" n", L" Ζ");
+	inputText.Replace(L" ζ", L" η");
 
+
+	//3 chữ nh : η ζ ·
+	// Các chữ mn : Ε Ζ   j w
 
 	SetDlgItemTextW(IDC_OUTPUT, inputText);
 }
