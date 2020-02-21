@@ -37,6 +37,10 @@ Nguyên tắc của file word luyện viết là ở trong file word có 2 phầ
 + Phần nền : là các ô vuông được kẻ bằng 1 ký tự trong bộ font, cái này nằm trong 1 Shape, và đã được Send to back. Nếu cần thì mình có thể căn chỉnh tọa độ theo ý muốn
 + Phần chữ : Các cô copy chữ chuẩn từ tool vào là được
 
+Chú ý
+------------
+Đối với Windows 8, 7 trở về trước, ô ở dưới có thể hiện các kí tự lạ, ko lên được font chữ 4 ô ly. Tuy nhiên khi ta copy các dòng đó vào trong file word thì vẫn lên bình thường ạ
+
 
 Góp ý 
 ------------
