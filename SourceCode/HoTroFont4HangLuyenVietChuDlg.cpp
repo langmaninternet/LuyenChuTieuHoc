@@ -722,6 +722,8 @@ void CHoTroFont4HangLuyenVietChuDlg::Convert()
 
 	inputText.Replace(L" u ", L" Ď ");
 	inputText.Replace(L" ư ", L" Ŕ ");
+	inputText.Replace(L" u", L" Ď");
+	inputText.Replace(L" ư", L" Ŕ");
 
 	//3 chữ nh : η ζ ·
 	// Các chữ mn : Ε Ζ   j w
