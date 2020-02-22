@@ -535,6 +535,35 @@ void CHoTroFont4HangLuyenVietChuDlg::Convert()
 	inputText.Replace(L"đễ", L"Α˙");
 
 
+	//quangbt dang soan
+		//inputText.Replace(L"be", L"be");
+	//inputText.Replace(L"bè", L"bè");
+	//inputText.Replace(L"bẹ", L"bẹ");
+	//inputText.Replace(L"bẻ", L"bẻ");
+	//inputText.Replace(L"bé", L"bé");
+	//inputText.Replace(L"bẽ", L"bẽ");
+	inputText.Replace(L"bê", L"χĹ");
+	//inputText.Replace(L"bề", L"bề");
+	//inputText.Replace(L"bệ", L"bệ");
+	//inputText.Replace(L"bể", L"bể");
+	//inputText.Replace(L"bế", L"bế");
+	//inputText.Replace(L"bễ", L"bễ");
+
+
+	//inputText.Replace(L"ve", L"ve");
+	//inputText.Replace(L"vè", L"vè");
+	//inputText.Replace(L"vẹ", L"vẹ");
+	//inputText.Replace(L"vẻ", L"vẻ");
+	//inputText.Replace(L"vé", L"vé");
+	//inputText.Replace(L"vẽ", L"vẽ");
+	//inputText.Replace(L"vê", L"vĹ");
+	inputText.Replace(L"về", L"ωề");
+	//inputText.Replace(L"vệ", L"vệ");
+	//inputText.Replace(L"vể", L"vể");
+	//inputText.Replace(L"vế", L"vế");
+	//inputText.Replace(L"vễ", L"vễ");
+
+
 	//em
 	inputText.Replace(L";m", L"΄m");
 	inputText.Replace(L"∆m", L"˝m");
@@ -624,13 +653,15 @@ void CHoTroFont4HangLuyenVietChuDlg::Convert()
 	inputText.Replace(L"tϜ", L"ΙϜ");
 	inputText.Replace(L"tĞ", L"ΙĞ");
 	inputText.Replace(L"tğ", L"Ιğ");
+
+
 	inputText.Replace(L"gh", L"θ");
 	inputText.Replace(L"kh", L"δ");
 	inputText.Replace(L"nh", L"ζ");
 	inputText.Replace(L"ch", L"ε");
 	inputText.Replace(L"th", L"κ");
 	inputText.Replace(L"ph", L"ι");
-	inputText.Replace(L"tr", L"Λ");
+
 
 
 
@@ -728,7 +759,7 @@ void CHoTroFont4HangLuyenVietChuDlg::Convert()
 	//3 chữ nh : η ζ ·
 	// Các chữ mn : Ε Ζ   j w
 	// u đặc biệt : Μ Μ
-
+	//inputText.Replace(L"tr", L"Λ");
 
 	SetDlgItemTextW(IDC_OUTPUT, inputText);
 }
