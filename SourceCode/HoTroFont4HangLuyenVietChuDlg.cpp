@@ -179,8 +179,6 @@ HCURSOR CHoTroFont4HangLuyenVietChuDlg::OnQueryDragIcon()
 	return static_cast<HCURSOR>(m_hIcon);
 }
 
-
-
 void CHoTroFont4HangLuyenVietChuDlg::Convert()
 {
 	CString inputText;
@@ -422,6 +420,8 @@ inputText.Replace(L"iễc", L"Ηğc");
 	inputText.Replace(L"yể", L"ΐ˘");
 	inputText.Replace(L"yế", L"ΐı");
 	inputText.Replace(L"yễ", L"ΐ˙");
+
+
 
 	inputText.Replace(L"ghe", L"Ή;");
 	inputText.Replace(L"ghè", L"Ή∆");
