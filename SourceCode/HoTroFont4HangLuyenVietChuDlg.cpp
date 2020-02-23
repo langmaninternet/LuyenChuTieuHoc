@@ -196,6 +196,7 @@ void CHoTroFont4HangLuyenVietChuDlg::Convert()
 	inputText.Replace(L"oóc", L"γ");
 	inputText.Replace(L"oọc", L"ǭ");
 
+
 	inputText.Replace(L"mi", L"ji");
 	inputText.Replace(L"mì", L"jì");
 	inputText.Replace(L"mị", L"jị");
@@ -507,6 +508,7 @@ void CHoTroFont4HangLuyenVietChuDlg::Convert()
 	inputText.Replace(L"lể", L"Δ˘");
 	inputText.Replace(L"lế", L"Δı");
 	inputText.Replace(L"lễ", L"Δ˙");
+
 	inputText.Replace(L"Le", L"ϋ;");
 	inputText.Replace(L"Lè", L"ϋ∆");
 	inputText.Replace(L"Lẹ", L"ϋ");
@@ -536,32 +538,33 @@ void CHoTroFont4HangLuyenVietChuDlg::Convert()
 
 
 	//quangbt dang soan
-		//inputText.Replace(L"be", L"be");
-	//inputText.Replace(L"bè", L"bè");
-	//inputText.Replace(L"bẹ", L"bẹ");
-	//inputText.Replace(L"bẻ", L"bẻ");
-	//inputText.Replace(L"bé", L"bé");
-	//inputText.Replace(L"bẽ", L"bẽ");
+	inputText.Replace(L"be", L"χϊ");
+	inputText.Replace(L"bè", L"χĘ");
+	inputText.Replace(L"bẹ", L"χě");
+	inputText.Replace(L"bẻ", L"χϗ");
+	inputText.Replace(L"bé", L"χď");
+	inputText.Replace(L"bẽ", L"χϘ");
 	inputText.Replace(L"bê", L"χĹ");
-	//inputText.Replace(L"bề", L"bề");
-	//inputText.Replace(L"bệ", L"bệ");
-	//inputText.Replace(L"bể", L"bể");
-	//inputText.Replace(L"bế", L"bế");
-	//inputText.Replace(L"bễ", L"bễ");
+	inputText.Replace(L"bề", L"χϙ");
+	inputText.Replace(L"bệ", L"bệ");
+	inputText.Replace(L"bể", L"χĽ");
+	inputText.Replace(L"bế", L"χĺ");
+	inputText.Replace(L"bễ", L"χľ");
 
 
-	//inputText.Replace(L"ve", L"ve");
-	//inputText.Replace(L"vè", L"vè");
-	//inputText.Replace(L"vẹ", L"vẹ");
-	//inputText.Replace(L"vẻ", L"vẻ");
-	//inputText.Replace(L"vé", L"vé");
-	//inputText.Replace(L"vẽ", L"vẽ");
-	//inputText.Replace(L"vê", L"vĹ");
-	inputText.Replace(L"về", L"ωề");
-	//inputText.Replace(L"vệ", L"vệ");
-	//inputText.Replace(L"vể", L"vể");
-	//inputText.Replace(L"vế", L"vế");
-	//inputText.Replace(L"vễ", L"vễ");
+
+	inputText.Replace(L"ve", L"ωϊ");
+	inputText.Replace(L"vè", L"ωĘ");
+	inputText.Replace(L"vẹ", L"ωě");
+	inputText.Replace(L"vẻ", L"ωϗ");
+	inputText.Replace(L"vé", L"ωď");
+	inputText.Replace(L"vẽ", L"ωϘ");
+	inputText.Replace(L"vê", L"ωĹ");
+	inputText.Replace(L"về", L"ωϙ");
+	inputText.Replace(L"vệ", L"ωệ");
+	inputText.Replace(L"vể", L"ωĽ");
+	inputText.Replace(L"vế", L"ωĺ");
+	inputText.Replace(L"vễ", L"ωľ");
 
 
 	//em
@@ -693,6 +696,92 @@ void CHoTroFont4HangLuyenVietChuDlg::Convert()
 	inputText.Replace(L"mế", L"ΕĞ");
 	inputText.Replace(L"mễ", L"Εğ");
 
+	inputText.Replace(L"tre", L"Λ΄");
+	inputText.Replace(L"trè", L"Λ˝");
+	inputText.Replace(L"trẹ", L"Λ−");
+	inputText.Replace(L"trẻ", L"Λ˞");
+	inputText.Replace(L"tré", L"Λ˛");
+	inputText.Replace(L"trẽ", L"Λˇ");
+	inputText.Replace(L"trê", L"Λł");
+	inputText.Replace(L"trề", L"Λϛ");
+	inputText.Replace(L"trệ", L"Λİ");
+	inputText.Replace(L"trể", L"ΛϜ");
+	inputText.Replace(L"trế", L"ΛĞ");
+	inputText.Replace(L"trễ", L"Λğ");
+	inputText.Replace(L"re", L"ς΄");
+	inputText.Replace(L"rè", L"ς˝");
+	inputText.Replace(L"rẹ", L"ς−");
+	inputText.Replace(L"rẻ", L"ς˞");
+	inputText.Replace(L"ré", L"ς˛");
+	inputText.Replace(L"rẽ", L"ςˇ");
+	inputText.Replace(L"rê", L"ςł");
+	inputText.Replace(L"rề", L"ςϛ");
+	inputText.Replace(L"rệ", L"ςİ");
+	inputText.Replace(L"rể", L"ςϜ");
+	inputText.Replace(L"rế", L"ςĞ");
+	inputText.Replace(L"rễ", L"ςğ");
+	inputText.Replace(L"ςe", L"ς΄");
+	inputText.Replace(L"ςè", L"ς˝");
+	inputText.Replace(L"ςẹ", L"ς−");
+	inputText.Replace(L"ςẻ", L"ς˞");
+	inputText.Replace(L"ςé", L"ς˛");
+	inputText.Replace(L"ςẽ", L"ςˇ");
+	inputText.Replace(L"ςê", L"ςł");
+	inputText.Replace(L"ςề", L"ςϛ");
+	inputText.Replace(L"ςệ", L"ςİ");
+	inputText.Replace(L"ςể", L"ςϜ");
+	inputText.Replace(L"ςế", L"ςĞ");
+	inputText.Replace(L"ςễ", L"ςğ");
+	inputText.Replace(L"xe", L"Κ΄");
+	inputText.Replace(L"xè", L"Κ˝");
+	inputText.Replace(L"xẹ", L"Κ−");
+	inputText.Replace(L"xẻ", L"Κ˞");
+	inputText.Replace(L"xé", L"Κ˛");
+	inputText.Replace(L"xẽ", L"Κˇ");
+	inputText.Replace(L"xê", L"Κł");
+	inputText.Replace(L"xề", L"Κϛ");
+	inputText.Replace(L"xệ", L"Κİ");
+	inputText.Replace(L"xể", L"ΚϜ");
+	inputText.Replace(L"xế", L"ΚĞ");
+	inputText.Replace(L"xễ", L"Κğ");
+	inputText.Replace(L"de", L"Ύ΄");
+	inputText.Replace(L"dè", L"Ύ˝");
+	inputText.Replace(L"dẹ", L"Ύ−");
+	inputText.Replace(L"dẻ", L"Ύ˞");
+	inputText.Replace(L"dé", L"Ύ˛");
+	inputText.Replace(L"dẽ", L"Ύˇ");
+	inputText.Replace(L"dê", L"Ύł");
+	inputText.Replace(L"dề", L"Ύϛ");
+	inputText.Replace(L"dệ", L"Ύİ");
+	inputText.Replace(L"dể", L"ΎϜ");
+	inputText.Replace(L"dế", L"ΎĞ");
+	inputText.Replace(L"dễ", L"Ύğ");
+	inputText.Replace(L"ke", L"Γ΄");
+	inputText.Replace(L"kè", L"Γ˝");
+	inputText.Replace(L"kẹ", L"Γ−");
+	inputText.Replace(L"kẻ", L"Γ˞");
+	inputText.Replace(L"ké", L"Γ˛");
+	inputText.Replace(L"kẽ", L"Γˇ");
+	inputText.Replace(L"kê", L"Γł");
+	inputText.Replace(L"kề", L"Γϛ");
+	inputText.Replace(L"kệ", L"Γİ");
+	inputText.Replace(L"kể", L"ΓϜ");
+	inputText.Replace(L"kế", L"ΓĞ");
+	inputText.Replace(L"kễ", L"Γğ");
+	inputText.Replace(L"we", L"Ζ΄");
+	inputText.Replace(L"wè", L"Ζ˝");
+	inputText.Replace(L"wẹ", L"Ζ−");
+	inputText.Replace(L"wẻ", L"Ζ˞");
+	inputText.Replace(L"wé", L"Ζ˛");
+	inputText.Replace(L"wẽ", L"Ζˇ");
+	inputText.Replace(L"wê", L"Ζł");
+	inputText.Replace(L"wề", L"Ζϛ");
+	inputText.Replace(L"wệ", L"Ζİ");
+	inputText.Replace(L"wể", L"ΖϜ");
+	inputText.Replace(L"wế", L"ΖĞ");
+	inputText.Replace(L"wễ", L"Ζğ");
+
+
 
 
 	inputText.Replace(L"gh", L"θ");
@@ -785,8 +874,7 @@ void CHoTroFont4HangLuyenVietChuDlg::Convert()
 	inputText.Replace(L"qử", L"Ǖẃ");
 	inputText.Replace(L"qứ", L"Ǖẁ");
 	inputText.Replace(L"qữ", L"ǕẄ");
-
-
+	inputText.Replace(L"qΜ", L"Ǖί");
 
 	inputText.Replace(L" t", L" Ǉ");
 	inputText.Replace(L" ζ", L" η");
@@ -799,6 +887,20 @@ void CHoTroFont4HangLuyenVietChuDlg::Convert()
 	inputText.Replace(L" m", L" j");
 	inputText.Replace(L"Nh", L"Nǖ");
 	inputText.Replace(L"Tr", L"Tς");
+
+	//sửa đầu ra
+	inputText.Replace(L"Ǖί;", L"ǕΜ;");
+	inputText.Replace(L"Ǖί∆", L"ǕΜ∆");
+	inputText.Replace(L"Ǖί", L"ǕΜ");
+	inputText.Replace(L"Ǖί◊", L"ǕΜ◊");
+	inputText.Replace(L"Ǖί≈", L"ǕΜ≈");
+	inputText.Replace(L"Ǖί⁄", L"ǕΜ⁄");
+	inputText.Replace(L"Ǖί", L"ǕΜ");
+	inputText.Replace(L"Ǖίˉ", L"ǕΜˉ");
+	inputText.Replace(L"ǕίŃ", L"ǕΜŃ");
+	inputText.Replace(L"Ǖί˘", L"ǕΜ˘");
+	inputText.Replace(L"Ǖίı", L"ǕΜı");
+	inputText.Replace(L"Ǖί˙", L"ǕΜ˙");
 
 	//3 chữ nh : η ζ ·
 	// Các chữ mn : Ε Ζ   j w
