@@ -46,3 +46,7 @@ Góp ý
 ------------
 Mọi góp ý xin gửi về : langmaninternet@gmail.com hoặc phản ánh trực tiếp qua facebook : https://www.facebook.com/langmaninternet
 
+Tool của mình hiện tại chưa phủ toàn bộ 100% các nét chữ trong luyện viết nhưng mình sẽ nâng cấp dần dần. 
+
+Các bạn nên tải phiên bản mới nhất về để được hỗ trợ nhiều nét nhất
+
