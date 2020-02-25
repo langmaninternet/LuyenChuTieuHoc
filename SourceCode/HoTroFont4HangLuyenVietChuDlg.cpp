@@ -184,10 +184,20 @@ void CHoTroFont4HangLuyenVietChuDlg::Convert()
 	CString inputText;
 	GetDlgItemTextW(IDC_INPUT, inputText);
 	inputText = L" " + inputText + L" ";
-	inputText.Replace(L",", L"| ");
+	inputText.Replace(L",", L" | ");
 	inputText.Replace(L"|", L",");
-	inputText.Replace(L",  ", L", ");
-	inputText.Replace(L" ,", L",");
+
+	inputText.Replace(L".", L" | ");
+	inputText.Replace(L"|", L".");
+
+	inputText.Replace(L"!", L" | ");
+	inputText.Replace(L"|", L"!");
+
+	inputText.Replace(L"?", L" | ");
+	inputText.Replace(L"|", L"?");
+
+	inputText.Replace(L";", L" | ");
+	inputText.Replace(L"|", L";");
 
 	inputText.Replace(L"oon", L"ά");
 	inputText.Replace(L"ooc", L"β");
@@ -1067,7 +1077,7 @@ inputText.Replace(L"iễc", L"Ηğc");
 	inputText.Replace(L"Ϙ ", L"≥ ");
 	inputText.Replace(L"ě ", L"ⁿ ");
 	inputText.Replace(L"Ĺ ", L"∂ ");
-	inputText.Replace(L"ϙ ", L"∏ ");
+	//inputText.Replace(L"ϙ ", L"∏ ");
 	inputText.Replace(L"ĺ ", L"∑ ");
 	inputText.Replace(L"Ľ ", L"∫ ");
 	inputText.Replace(L"ľ ", L"Ω ");
@@ -1102,7 +1112,8 @@ inputText.Replace(L"iễc", L"Ηğc");
 
 
 
-
+	inputText.Replace(L",  ", L", ");
+	inputText.Replace(L" ,", L",");
 
 	//3 chữ nh : η ζ ·
 	// Các chữ mn : Ε Ζ   j w
