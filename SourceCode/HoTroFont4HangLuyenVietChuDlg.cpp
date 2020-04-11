@@ -1109,8 +1109,10 @@ inputText.Replace(L"iễc", L"Ηğc");
 
 
 
-
-
+	inputText.Replace(L"ΐłu ", L"ΐêu ");
+	inputText.Replace(L"se ", L"sΝ ");
+	inputText.Replace(L"Ǘ;o", L"Β΄o");
+	inputText.Replace(L"ĞΙ", L"Ğt");
 
 	inputText.Replace(L",  ", L", ");
 	inputText.Replace(L" ,", L",");
