@@ -50,3 +50,9 @@ Tool của mình hiện tại chưa phủ toàn bộ 100% các nét chữ trong 
 
 Các bạn nên tải phiên bản mới nhất về để được hỗ trợ nhiều nét nhất
 
+Đóng góp thêm nét chữ cho tác giả
+------------
+Để gửi thêm các mẫu nét chữ cần sửa đổi, bạn hãy điền theo mẫu sau và gửi cho mình nhé. Mình sẽ cập nhập tool ngay khi nhận được email của các bạn.
+![](LuyenChuTieuHoc/GopYMau.png)
+
+
