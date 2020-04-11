@@ -52,7 +52,7 @@ Các bạn nên tải phiên bản mới nhất về để được hỗ trợ n
 
 Đóng góp thêm nét chữ cho tác giả
 ------------
-Để gửi thêm các mẫu nét chữ cần sửa đổi, bạn hãy điền theo mẫu sau và gửi cho mình nhé. Mình sẽ cập nhập tool ngay khi nhận được email của các bạn.
+Để gửi thêm các mẫu nét chữ cần sửa đổi, bạn hãy điền theo word mẫu sau **(LuyenChuTieuHoc\File góp ý mẫu.docx)** và gửi cho mình nhé. Mình sẽ cập nhập tool ngay khi nhận được email của các bạn.
 ![](LuyenChuTieuHoc/GopYMau.png)
 
 
