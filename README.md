@@ -3,7 +3,7 @@
 
 Link tải
 ------------
-https://github.com/langmaninternet/LuyenChuTieuHoc/archive/2.11.zip
+https://github.com/langmaninternet/LuyenChuTieuHoc/archive/2.12.zip
 
 
 Lời dẫn
