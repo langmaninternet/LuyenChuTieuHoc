@@ -36,4 +36,6 @@ public:
 	afx_msg void OnBnClickedOk();
 
 	afx_msg void OnEnChangeInput();
+	afx_msg void OnBnClickedCopy();
+	CString m_decode;
 };

@@ -55,6 +55,7 @@ END_MESSAGE_MAP()
 
 CHoTroFont4HangLuyenVietChuDlg::CHoTroFont4HangLuyenVietChuDlg(CWnd* pParent /*=nullptr*/)
 	: CDialogEx(IDD_HOTROFONT4HANGLUYENVIETCHU_DIALOG, pParent)
+	, m_decode(_T(""))
 {
 	m_hIcon = AfxGetApp()->LoadIcon(IDR_MAINFRAME);
 }
@@ -62,6 +63,7 @@ CHoTroFont4HangLuyenVietChuDlg::CHoTroFont4HangLuyenVietChuDlg(CWnd* pParent /*=
 void CHoTroFont4HangLuyenVietChuDlg::DoDataExchange(CDataExchange* pDX)
 {
 	CDialogEx::DoDataExchange(pDX);
+	DDX_Text(pDX, IDC_OUTPUT, m_decode);
 }
 
 BEGIN_MESSAGE_MAP(CHoTroFont4HangLuyenVietChuDlg, CDialogEx)
@@ -70,6 +72,7 @@ BEGIN_MESSAGE_MAP(CHoTroFont4HangLuyenVietChuDlg, CDialogEx)
 	ON_WM_QUERYDRAGICON()
 	ON_BN_CLICKED(IDOK, &CHoTroFont4HangLuyenVietChuDlg::OnBnClickedOk)
 	ON_EN_CHANGE(IDC_INPUT, &CHoTroFont4HangLuyenVietChuDlg::OnEnChangeInput)
+	ON_BN_CLICKED(IDC_COPY, &CHoTroFont4HangLuyenVietChuDlg::OnBnClickedCopy)
 END_MESSAGE_MAP()
 
 
@@ -1133,4 +1136,61 @@ void CHoTroFont4HangLuyenVietChuDlg::OnBnClickedOk()
 void CHoTroFont4HangLuyenVietChuDlg::OnEnChangeInput()
 {
 	Convert();
+}
+
+
+void CHoTroFont4HangLuyenVietChuDlg::OnBnClickedCopy()
+{
+
+	if (OpenClipboard())
+	{
+		UpdateData(TRUE);
+
+		// Empty the Clipboard. This also has the effect
+		// of allowing Windows to free the memory associated
+		// with any data that is in the Clipboard
+		EmptyClipboard();
+
+		// Ok. We have the Clipboard locked and it's empty. 
+		// Now let's allocate the global memory for our data.
+
+		// Here I'm simply using the GlobalAlloc function to 
+		// allocate a block of data equal to the text in the
+		// "to clipboard" edit control plus one character for the
+		// terminating null character required when sending
+		// ANSI text to the Clipboard.
+		int nChar = m_decode.GetLength() * 4 + 10;
+		HGLOBAL hClipboardData = GlobalAlloc(GMEM_DDESHARE, nChar);
+
+		// Calling GlobalLock returns to me a pointer to the 
+		// data associated with the handle returned from 
+		// GlobalAlloc
+		char* pchData = (char*)GlobalLock(hClipboardData);
+		for (int ichar = 0; ichar < nChar; ichar++)
+		{
+			pchData[ichar] = 0;
+		}
+		// At this point, all I need to do is use the standard 
+		// C/C++ strcpy function to copy the data from the local 
+		// variable to the global memory.
+		//wcscpy_s(pchData, m_decode.GetLength() + 1, m_decode.GetBuffer());
+		WideCharToMultiByte(CP_UTF8, 0, m_decode.GetBuffer(), m_decode.GetLength(), pchData, m_decode.GetLength(), 0, 0);
+
+		// Once done, I unlock the memory - remember you 
+		// don't call GlobalFree because Windows will free the 
+		// memory automatically when EmptyClipboard is next 
+		// called. 
+		GlobalUnlock(hClipboardData);
+
+		// Now, set the Clipboard data by specifying that 
+		// ANSI text is being used and passing the handle to
+		// the global memory.
+		SetClipboardData(CF_TEXT, hClipboardData);
+
+		// Finally, when finished I simply close the Clipboard
+		// which has the effect of unlocking it so that other
+		// applications can examine or modify its contents.
+		CloseClipboard();
+	}
+
 }
