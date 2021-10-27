@@ -5,7 +5,7 @@ Link tải
 ------------
 https://github.com/langmaninternet/LuyenChuTieuHoc/archive/2.13.zip
 
-+ Update theo góp ý của nguyenvanthanhtuyen@moet.edu.vn
++ Update theo góp ý của bạn [Nguyễn Văn Thanh Tuyền TH Lam Sơn- Bà Rịa Vũng Tàu] nguyenvanthanhtuyen@
 
 Lời dẫn
 ------------
