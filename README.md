@@ -3,8 +3,9 @@
 
 Link tải
 ------------
-https://github.com/langmaninternet/LuyenChuTieuHoc/archive/2.12.zip
+https://github.com/langmaninternet/LuyenChuTieuHoc/archive/2.13.zip
 
++ Update theo góp ý của nguyenvanthanhtuyen@moet.edu.vn
 
 Lời dẫn
 ------------
