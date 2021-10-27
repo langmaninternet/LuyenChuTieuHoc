@@ -1111,6 +1111,9 @@ inputText.Replace(L"iễc", L"Ηğc");
 	inputText.Replace(L"ǕΜ˙", L"ǕΜ˙");
 
 
+	inputText.Replace(L"kł", L"Γł");
+
+
 
 	inputText.Replace(L"ΐłu ", L"ΐêu ");
 	inputText.Replace(L"se ", L"sΝ ");
