@@ -3,7 +3,7 @@
 
 Link tải
 ------------
-https://github.com/langmaninternet/LuyenChuTieuHoc/archive/2.13.zip
+https://github.com/langmaninternet/LuyenChuTieuHoc/archive/2.14.zip
 
 + Update theo góp ý của bạn [Nguyễn Văn Thanh Tuyền TH Lam Sơn- Bà Rịa Vũng Tàu]
 
